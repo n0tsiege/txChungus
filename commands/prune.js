@@ -7,23 +7,23 @@ module.exports = {
     aliases: ['delete', 'purge'],
     async execute(message, args, config) {
         //Check permission
-        if(!config.admins.includes(message.author.id)){
-            return message.reply(`shut up`);
+        if(!config.commands.admins.includes(message.author.id)){
+            return message.reply(`you don't have permission to run this command`);
         }
-        //if above 100, prune 100
-        // leave a prune message behind
 
         //Check amount
         const amount = parseInt(args[0]) + 1;
         if (isNaN(amount)) {
             return message.reply(`that doesn't seem to be a valid number.`);
-        } else if (amount <= 1 || amount > 100) {
-            return message.reply(`you need to input a number between 1 and 99.`);
+        } else if (amount <= 1) {
+            return message.reply(`you need to input a number above 1.`);
         }
 
         //Attempt to delete in bulk
         try {
-            await message.channel.bulkDelete(amount, true);
+            const toPrune = Math.min(amount, 100);
+            await message.channel.bulkDelete(toPrune, true);
+            return message.channel.send(`Pruned ${toPrune} messages.`);
         } catch (error) {
             dir(error)
             return message.reply(`well, apparently I can't.`);

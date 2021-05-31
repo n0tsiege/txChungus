@@ -1,0 +1,5 @@
+Download `monitor.zip` from the following link:
+<https://github.com/tabarra/txAdmin/releases/latest>
+<:windows:791692679419265044> Inside the artifacts folder, replace the `citizen/system_resources/monitor` folder contents with the files from the downloaded ZIP.
+<:linux:780972840454979604> Replace the `alpine/opt/cfx-server/citizen/system_resources` folder contents with the files from the downloaded ZIP.
+:warning: **DON'T FORGET TO RESTART txAdmin!**

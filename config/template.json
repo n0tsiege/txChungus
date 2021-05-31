@@ -2,21 +2,42 @@
     "token": "xxxxxxxxxxxxxxxxxxxxxxxx.xxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     "guild": "111111111111111111",
     "prefix": "!",
+    "txStatsPath": "./data/metadata.json",
+
     "channels": {
-        "announce": "111111111111111111",
+        "general": "111111111111111111",
         "showYourWork": "111111111111111111",
         "recommendedBuild": {
             "channel": "111111111111111111",
             "message": "111111111111111111"
+        },
+        "statsTracker": {
+            "channel": "111111111111111111",
+            "message": "111111111111111111"
+        },
+        "selfHelp": {
+            "channel": "111111111111111111",
+            "message": "111111111111111111"
         }
     },
-    "commands": {
-        "admins": [
-            "111111111111111111"
-        ],
-        "latestTXAdminVersion": "v9.9.9",
-        "latestTXAdminVersionOnArtifact": 1234
+    "supportChannels": {
+        "tx": "111111111111111111",
+        "zap": "111111111111111111",
+        "fx": "111111111111111111",
+        "res": "111111111111111111",
+        "pt": "111111111111111111"
     },
+    "roles": {
+        "mute": "111111111111111111",
+        "newcomer": "111111111111111111",
+        "trusted": ["111111111111111111"]
+    },
+
+    "commands": {
+        "_ please deprecate this shit": true,
+        "admins": ["111111111111111111"]
+    },
+
     "bannedStrings": [
         "mega.nz",
         "anonfiles",
@@ -27,6 +48,11 @@
         "joinmy.site",
         "curiouscat.club",
         "catsnthings.fun",
-        "catsnthing.com"
+        "catsnthing.com",
+        "RedEngine.exe",
+        "stearmcommunity.ru",
+        "stermccommunitty.ru",
+        "stearmcommunitty.ru",
+        "bitly.su"
     ]
 }

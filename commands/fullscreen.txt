@@ -1,0 +1,3 @@
+#alias full
+Please provide a FULL SCREENSHOT.
+This means literally the entire screen, including the clock at the bottom.

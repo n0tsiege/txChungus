@@ -1,0 +1,10 @@
+#alias host
+When creating a FiveM server, there are 3 options available:
+:one: **The easiest way:**
+        :point_right: DDoS protected & pre-configured FiveM txAdmin server is on ZAP-Hosting
+        :point_right: https://zap-hosting.com/txAdmin
+:two: **Home hosting:**
+        Running the server on your PC is NOT recommended due to performance, security, and ease of configuration reasons, please use the link above.
+:three: **VPS Server:**
+        Usually ZAP, OVH and Google Cloud are used.
+        This is usually the most powerful but more expensive way.

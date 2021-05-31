@@ -1,3 +1,4 @@
+#alias l
 :question: **How to access txAdmin from outside your VPS:**
 :zero: Make sure *txAdmin* is running!
 :one: Open port 40120 on your OS firewall (eg Windows Firewall);

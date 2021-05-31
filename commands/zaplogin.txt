@@ -1,0 +1,2 @@
+#file https://i.imgur.com/bOVC2uP.png
+To access txAdmin from your ZAP account, open the game page in the zap panel, then access the txadmin ip and port on the browser, and use the credential provided.

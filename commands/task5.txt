@@ -1,3 +1,4 @@
+#alias t5
 If task 5 `[connect_database]` is failing when setting up PlumeESX, there is an easy fix!
 :one: Download and install XAMPP: <https://www.apachefriends.org/>
 :two: Start MySQL: <https://i.imgur.com/UNnKmnt.png>

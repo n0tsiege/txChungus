@@ -3,6 +3,7 @@ config/*
 !config/template.json
 data/*
 !data/.gitkeep
+commands/test.js
 
 # Logs
 logs

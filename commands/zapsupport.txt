@@ -1,0 +1,4 @@
+#alias zs
+For ZAP-Hosting related issues or questions, please check their Discord server, as well as their support page linked below.
+:point_right: <https://zap-hosting.com/en/customer/support/>
+:point_right: https://discord.gg/jbkSQyFCpr

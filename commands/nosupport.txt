@@ -1,0 +1,5 @@
+#alias ns
+:warning: **We do not give support for:**
+**- Outdated txAdmin versions:** Updates solve issues, if you decide not to update that's your problem;
+**- Unauthorized Gaming Server Providers:** If they are profitting from it, they should be the ones supporting it;
+**- Containers and Pterodactyl:** Those setups are weird and not recommended, your problem;

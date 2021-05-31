@@ -1,2 +1,4 @@
-Zap-Hosting integration coming very very soon! <:zap:823665788375531550>
-https://Zap-Hosting.com/txAdmin
+#alias z
+#file https://i.imgur.com/baw2cf2.png
+:rocket: The easiest way to get a DDoS protected & pre-configured FiveM txAdmin server is on ZAP :rocket:
+:point_right: :point_right: https://zap-hosting.com/txAdmin :point_left: :point_left: 

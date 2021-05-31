@@ -1,0 +1,4 @@
+#alias logger404
+If you are having `Logger upload failed with code 403/404` errors (example <https://i.imgur.com/YJgmuzJ.png>) try the following:
+- Delete the `FXServer.exe/citizen/system_resources/monitor` folder, and update your artifacts again;
+- Delete any `monitor` or `txAdmin` folders inside your `resources` folder.
