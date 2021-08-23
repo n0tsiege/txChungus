@@ -1,0 +1,2 @@
+#alias nt
+This nas nothing to do with txAdmin. Please use the appropriate channel for this (<#766868150590505011> or <#766868363041046589>).

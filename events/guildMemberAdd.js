@@ -27,7 +27,7 @@ module.exports = {
     async execute (config, member) {
         if(member.guild.memberCount % 1000 == 0){
             const gif = rndFromArray(gifs);
-            this.sendAnnouncement(`<@${member.id}> YOU ARE MEMBER NUMBER ${member.guild.memberCount}!!!!\n${gif}`);
+            this.sendAnnouncement(`<@${member.id}> YOU ARE MEMBER NUMBER ${member.guild.memberCount}!!!!\n_(unless you disconnect, in that case someone will take your spot, you ungrateful prick)_\n${gif}`);
         }
 
         //DEBUG if(member.id === '778133189771526164')

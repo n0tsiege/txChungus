@@ -1,5 +1,5 @@
 //Requires
-const modulename = 'voiceStateUpdate';
+const modulename = 'voice';
 const { dir, log, logOk, logWarn, logError } = require('../lib/console')(modulename);
 
 

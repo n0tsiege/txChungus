@@ -1,2 +1,4 @@
-Please read the installation instructions:
-<https://github.com/tabarra/txAdmin#installing--running>
+:point_right: **Menu:** how to enable, changing keys, etc: <https://github.com/tabarra/txAdmin/blob/master/docs/menu.md>
+:point_right: **Custom Events:** triggered by txAdmin: <https://github.com/tabarra/txAdmin/blob/master/docs/events.md>
+:point_right: **Translation:** how to change announcements: <https://github.com/tabarra/txAdmin/blob/master/docs/translation.md>
+:point_right: **Recipe Engine:** how to create your own recipe: <https://github.com/tabarra/txAdmin/blob/master/docs/recipe.md>

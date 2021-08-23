@@ -1,0 +1,8 @@
+:point_right:  **Steam authentication failure with error `Unnable to find SteamID`:**
+:one: The server owner has not set a steam API key.
+- Register for a Steam API key at <https://steamcommunity.com/dev/apikey> and put the key it in your server.cfg : `set steam_webApiKey "<KEY>"`
+- You can disable the Steam API key for your server by putting `set steam_webApiKey "none"` in your server.cfg file.
+-  *Don't forget to restart your server and to try again*
+:two: | Still not working? API key is likely invalid. 
+- Try generating a new API key.
+- Try using a different account to generate an API key (ask a friend?)

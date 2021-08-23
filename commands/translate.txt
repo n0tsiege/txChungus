@@ -1,1 +1,3 @@
-If your language is not available, or you want to customize the messages, create a `locale.json` file in your `txData` folder based on any language file found on [our repository](https://github.com/tabarra/txAdmin/tree/master/locale). Then go to the settings and select the "Custom" language option.  
+Translation for in-game interface as well as chat and discord messages is available.
+You can even customize or contribute to the current translations.
+Read more at: <https://github.com/tabarra/txAdmin/blob/master/docs/translation.md>

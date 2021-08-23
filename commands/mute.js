@@ -36,12 +36,12 @@ module.exports = {
         try {
             await GlobalActions.tmpRoleAdd('muted', mention.user.id, expiration, reason);
             message.reply(`Muted \`${mention.displayName}\` for \`${args[0]}\`\nReason: \`${reason}\``);
+            log(`${message.author.tag} muted \`${mention.displayName}\` for \`${args[0]}\` and reason: \`${reason}\``);
         } catch (error) {
             message.reply('Something terrible just happened, fuck. Most likely the member left.');
             dir(error)
         }
 
-        mention.send(`You have been muted for \`${args[0]}\`\nReason: \`${reason}\``)
-            .catch(() => logWarn("Failed to send a DM, propably disabled DMs"));
+        mention.send(`You have been muted for \`${args[0]}\`\nReason: \`${reason}\``).catch(()=>{});
     }
 };

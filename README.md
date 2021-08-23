@@ -71,3 +71,29 @@ https://discordapi.com/permissions.html#201681986
 
 ## License
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+
+## (just some notes, plz ignore thanks)
+Limpar hoisters e unicode:
+https://lingojam.com/StylishTextGenerator
+
+https://matrix.to/#/!rUiwxlJvpdAOiTowFn:cfx.re/$uQDKLJYO9wkohmnVLNrj-c24OPQv8jOVcCTlZ_QCrlo?via=cfx.re&via=matrix.org&via=kng.re
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize
+
+> 'Amélie'.normalize('NFD').replace(/[^\x00-\x7F]/g, '')
+'Amelie'
+
+> '𝓬𝓸𝓹𝔂'.normalize('NFKD').replace(/[^\x00-\x7F]/g, '')
+'copy'
+
+> 'Amélie'.normalize('NFKD').replace(/[^\p{L}]/gu, '')
+'Amelie'
+> 'блять'.normalize('NFKD').replace(/[^\p{L}]/gu, '')
+'блять'
+
+> '𝓬𝓸𝓹𝔂 блять 69 wew'.normalize('NFKD').replace(/[^\p{L}\p{N} ]/gu, '')
+'copy блять 69 wew'
+
+
+https://api.urbandictionary.com/v0/define?term=xxxxxxxxxxx
+https://api.urbandictionary.com/v0/random

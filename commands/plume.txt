@@ -1,3 +1,3 @@
-:rocket: **PlumeESX** is a full featured (13 jobs) and highly configurable yet lightweight ESX v1.2 base that can be easily extendable.
+:rocket: **PlumeESX** is a full featured and highly configurable yet lightweight ESX Legacy base that can be easily extended.  
 :point_right: **Forum Thread:** <https://forum.cfx.re/t/recipe-plumeesx-full-base-2021/1964029>
 :point_right: **YouTube Tutorial:** <https://www.youtube.com/watch?v=iGfwUCO0RZQ>

@@ -1,0 +1,2 @@
+To access your server files for your ZAP GameServer, you will need to use FTP.
+<https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/>
